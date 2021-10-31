@@ -1,5 +1,17 @@
 $(function(){
-    // $('.blue-box').animate({
+   $(".lightbox").delay(500).fadeIn(1000)
+   
+}) 
+
+
+
+
+
+
+
+
+
+ // $('.blue-box').animate({
     //     "margin-left": "+=150px",
     //     "opacity" : "0"
     // }, 600,"linear")
@@ -34,12 +46,6 @@ $(function(){
     //         $(".blue-box").fadeTo(1000, 0.2)
     //     })
     // })
-
-
-    
-})  
-
-
 
 
 
