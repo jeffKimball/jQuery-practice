@@ -1,5 +1,6 @@
 $(function(){
-   $(".lightbox").delay(500).fadeIn(1000)
+
+    
    
 }) 
 
@@ -11,18 +12,57 @@ $(function(){
 
 
 
- // $('.blue-box').animate({
-    //     "margin-left": "+=150px",
-    //     "opacity" : "0"
-    // }, 600,"linear")
 
-    // $('.blue-box').animate({
-    //     marginLeft: "+=100px",
-    //     opacity : "0",
-    //     height : "50px",
-    //     width : "50px",
-    //     marginTop: "25px"
-    // }, 600,"linear")
+
+
+
+
+// SELECTORS ----------------------------------------------------------------
+
+// YOU CAN ALSO USE PREVIOUS, NEXT, PARENT, CHILD OR SIBLINGS. 
+// 'find' WILL SEARCH RECURSIVELY
+//   There are also filter functions and a '.not' operator
+
+//    $("p").css("background-color", "rgba(180,180,30,0.8)")
+//    $(".red-box").css("background-color", "rgba(180,180,30,0.8)")
+//    $("#list").css("background-color", "rgba(180,180,30,0.8)")
+    // $("input[type='text']").css("background-color", "rgba(180,180,30,0.8)")
+    // $("input[type=email]").css("background-color", "rgba(180,180,30,0.8)")
+    // $("input:checked").css("background-color", "rgba(180,180,30,0.8)")
+    // $("h2, p , input").css("background-color", "rgba(180,180,30,0.8)")
+    // $("ul#list>li:nth-child(3)").css("background-color", "rgba(180,180,30,0.8)")
+    // $("ul#list>li:even").css("background-color", "rgba(180,180,30,0.8)")
+    // $("ul#list>li:odd").css("background-color", "rgba(180,180,30,0.8)")
+
+
+
+
+
+
+
+
+
+
+
+
+// ANIMATIONS -----------------------------------------------------------
+
+// $(".lightbox").delay(500).fadeIn(1000)
+
+
+
+//  $('.blue-box').animate({
+//         "margin-left": "+=150px",
+//         "opacity" : "0"
+//     }, 600,"linear")
+
+//     $('.blue-box').animate({
+//         marginLeft: "+=150px",
+//         opacity : "0",
+//         height : "50px",
+//         width : "50px",
+//         marginTop: "25px"
+//     }, 600,"linear")
 
     // $('.blue-box').animate({
     //     "margin-left": "-=200px"
