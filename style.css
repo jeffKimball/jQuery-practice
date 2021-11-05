@@ -92,7 +92,8 @@ input[type="submit"]:hover {
 html {
   min-height: 100%;
   background-color: #0769ad;
-  box-shadow: 0 0 8px 4px #06599d inset;
+  background-color: #fff;
+  /* box-shadow: 0 0 8px 4px #06599d inset; */
 }
 
 body {
@@ -154,3 +155,13 @@ h2 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.gallery {
+  margin: 50px auto;
+  width: 500px;
+  height: 400px;
+}
+
+img {
+  width: 100%;
+}

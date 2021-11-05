@@ -1,14 +1,21 @@
 $(function(){
+   let galleryImage = $(".gallery").find("img").first();
+   let images = [
+    "images/bear.jpg",
+    "images/diner.jpg",
+    "images/dock.jpg"    
+   ]
    
-    
+   let i = 0
+    setInterval(() => {
+        i = (i + 1) % images.length
+        galleryImage.fadeOut(function() {
+            $(this).attr("src", images[i])
+            $(this).fadeIn()
+        })
+    }, 4000)
    
 }) 
-
-
-
-
-
-
 
 
 
@@ -112,13 +119,13 @@ $(function(){
 //         "opacity" : "0"
 //     }, 600,"linear")
 
-//     $('.blue-box').animate({
-//         marginLeft: "+=150px",
-//         opacity : "0",
-//         height : "50px",
-//         width : "50px",
-//         marginTop: "25px"
-//     }, 600,"linear")
+    // $('.blue-box').animate({
+    //     marginLeft: "+=150px",
+    //     opacity : "0",
+    //     height : "50px",
+    //     width : "50px",
+    //     marginTop: "25px"
+    // }, 600,"linear")
 
     // $('.blue-box').animate({
     //     "margin-left": "-=200px"
