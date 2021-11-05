@@ -1,5 +1,31 @@
 $(function(){
+    // $("ul ul:first").append("<li>LAST SUB ITEM</li>")
+    // $("<li>THE LAST ITEM</li>").appendTo('#random')
 
+    // $("ul ul:first").prepend("<li>FIRST SUB ITEM</li>")
+    // $("<li>PREPEND ITEM</li>").prependTo('#random')
+
+    // $(".red-box").after("<div class='red-box'>Anotha One</div>")
+    // $(".green-box").before("<div class='green-box'>Anotha One</div>")
+
+    // $(".green-box").before(function(){
+    //     return "<div class='green-box'>mic checka</div>"
+    // })
+
+    // $(".green-box").before($(".red-box"))
+
+    // $("li").replaceWith("<p>Lists will not replace us</p>")
+    // $("li").replaceWith($(".red-box"))
+    // $("li").replaceWith(()=> {
+    //     return "<p>Use a function to replace elements</p>"
+    // })
+
+    // let firstItem = $("li:first")
+    // $("p:first").replaceWith(firstItem)
+
+    // $($(".red-box")).replaceWith($(".blue-box"))
+    // $(".red-box, .blue-box").replaceWith("<div class='green-box'>Betta BoX</div>")
+    // $("<div class='green-box'>Betta BoX</div>").replaceAll(".red-box, .blue-box")
     
    
 }) 
