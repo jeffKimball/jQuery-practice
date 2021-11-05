@@ -1,5 +1,36 @@
 $(function(){
-    // $("ul ul:first").append("<li>LAST SUB ITEM</li>")
+   
+    
+   
+}) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ADD OR REMOVE ----------------------------------------------------------------
+
+ // $("ul ul:first").append("<li>LAST SUB ITEM</li>")
     // $("<li>THE LAST ITEM</li>").appendTo('#random')
 
     // $("ul ul:first").prepend("<li>FIRST SUB ITEM</li>")
@@ -26,12 +57,11 @@ $(function(){
     // $($(".red-box")).replaceWith($(".blue-box"))
     // $(".red-box, .blue-box").replaceWith("<div class='green-box'>Betta BoX</div>")
     // $("<div class='green-box'>Betta BoX</div>").replaceAll(".red-box, .blue-box")
-    
-   
-}) 
 
+    // $("ul").remove()
 
-
+    // $("form").children().not("textarea").remove()
+    // $("form").children().not("input:text").remove()
 
 
 
@@ -112,8 +142,6 @@ $(function(){
     //         $(".blue-box").fadeTo(1000, 0.2)
     //     })
     // })
-
-
 
 
 // $('.red-box').fadeTo(1000, 0)    
