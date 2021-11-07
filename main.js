@@ -1,23 +1,57 @@
 $(function(){
-   let galleryImage = $(".gallery").find("img").first();
-   let images = [
-    "images/bear.jpg",
-    "images/diner.jpg",
-    "images/dock.jpg"    
-   ]
-   
-   let i = 0
-    setInterval(() => {
-        i = (i + 1) % images.length
-        galleryImage.fadeOut(function() {
-            $(this).attr("src", images[i])
-            $(this).fadeIn()
-        })
-    }, 4000)
+    
+  
    
 }) 
 
+//CHANGING CSS PROPERTIES OF ELEMENTS
 
+//   let redBox = $(".red-box")
+//     console.log(redBox.css("width"))
+//     console.log(redBox.width());
+
+//     redBox.css("background-color", "#d69a00")
+//     redBox.css("width", "+=40px")
+
+//     $("p").css("font-size", "22px")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//GALLERY -----------------------------------------------------
+
+//    let galleryImage = $(".gallery").find("img").first();
+//    let images = [
+//     "images/bear.jpg",
+//     "images/diner.jpg",
+//     "images/dock.jpg"    
+//    ]
+   
+//    let i = 0
+//     setInterval(() => {
+//         i = (i + 1) % images.length
+//         galleryImage.fadeOut(function() {
+//             $(this).attr("src", images[i])
+//             $(this).fadeIn()
+//         })
+//     }, 4000)
 
 
 

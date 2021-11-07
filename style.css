@@ -154,13 +154,11 @@ h2 {
   transform: scaleX(1);
 }
 
-/*# sourceMappingURL=style.css.map */
-
-.gallery {
+/* #sourceMappingURL=style.css.map .gallery {
   margin: 50px auto;
   width: 500px;
   height: 400px;
-}
+} */
 
 img {
   width: 100%;
