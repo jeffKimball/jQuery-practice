@@ -1,10 +1,61 @@
 $(function(){
+
     
   
    
 }) 
 
-//CHANGING CSS PROPERTIES OF ELEMENTS
+
+
+//AJAX WITH jQUERY-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ADDING OR REMOVING CSS CLASSES-------------------------------
+
+// $("a").addClass('fancy-link')
+// $("p:first").addClass("large emphasize")
+
+// $(".red-box").removeClass("red-box").addClass("blue-box")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CHANGING CSS PROPERTIES OF ELEMENTS---------------------------------
 
 //   let redBox = $(".red-box")
 //     console.log(redBox.css("width"))
